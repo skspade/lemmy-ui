@@ -263,6 +263,7 @@ export class CommunityForm extends Component<
             allLanguages={this.props.allLanguages}
             siteLanguages={this.props.siteLanguages}
             showSite
+            hideLanguageWarning
             selectedLanguageIds={this.state.form.discussion_languages}
             multiple={true}
             onChange={this.handleDiscussionLanguageChange}
