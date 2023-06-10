@@ -64,7 +64,7 @@ export class PostListings extends Component<PostListingsProps, any> {
 
   render() {
     return (
-      <main id="main-content">
+      <main id="main-content" tabIndex={-1}>
         {this.posts.length > 0 ? (
           this.posts.map(post_view => (
             <>

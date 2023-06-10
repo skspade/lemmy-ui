@@ -398,7 +398,7 @@ async function createSsrHtml(root: string, isoData: IsoDataOptionalSite) {
     <a
     href="#main-content"
     class="skip-link"
-
+    onclick="document.getElementById('main-content').focus(); return false;"
     >
       Jump to content
     </a>
