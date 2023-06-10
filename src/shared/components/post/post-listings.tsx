@@ -64,7 +64,7 @@ export class PostListings extends Component<PostListingsProps, any> {
 
   render() {
     return (
-      <div>
+      <main id="main-content">
         {this.posts.length > 0 ? (
           this.posts.map(post_view => (
             <>
@@ -106,7 +106,7 @@ export class PostListings extends Component<PostListingsProps, any> {
             )}
           </>
         )}
-      </div>
+      </main>
     );
   }
 

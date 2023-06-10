@@ -395,6 +395,13 @@ async function createSsrHtml(root: string, isoData: IsoDataOptionalSite) {
   </head>
 
   <body ${helmet.bodyAttributes.toString()}>
+    <a
+    href="#main-content"
+    class="skip-link"
+
+    >
+      Jump to content
+    </a>
     <noscript>
       <div class="alert alert-danger rounded-0" role="alert">
         <b>Javascript is disabled. Actions will not work.</b>
